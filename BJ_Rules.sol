@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: FIGxx
 pragma solidity 0.8.10;
 
-import {Ownable} from "C:/Users/smash/Desktop/RemixD/contracts/BlackJack_investor_files/ownable.sol";
+import {Ownable} from "./ownable.sol";
 
 
 contract Rules_BJ is Ownable {
