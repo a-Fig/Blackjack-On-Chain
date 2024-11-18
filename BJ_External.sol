@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: FIGxx
 pragma solidity 0.8.10;
 
-import {bankContract} from "C:/Users/smash/Desktop/RemixD/contracts/BlackJack_investor_files/investorBank.sol";
+import {bankContract} from "./investorBank.sol";
 import {Logic_BJ} from "./BJ_Logic.sol";
 
 contract Blackjack_Game is Logic_BJ {
