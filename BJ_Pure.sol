@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: FIGxx
 pragma solidity 0.8.10;
 
-import {ArbSys} from "C:/Users/smash/Desktop/RemixD/contracts/BlackJack_investor_files/arbitrumInterface.sol";
+import {ArbSys} from "./arbitrumInterface.sol";
 
 contract Contained_BJ {
     uint8 constant GRACE_PERIOD = 3; //the higher the number, the more secure it is. new_card code is written for 3 blocks
