@@ -1,5 +1,5 @@
 # Blackjack-On-Chain
-Blackjack-On-Chain is a decentralized application (dApp) that brings the popular game of Blackjack onto the blockchain. This project leverages smart contracts to ensure transparency, fairness, and immutability for all players. Built on the Arbitrum network, the system utilizes Chainlink VRF for true randomness, ensuring trustless gameplay.
+Blackjack-On-Chain is a decentralized application (dApp) that brings the popular game of Blackjack onto the blockchain. This project leverages smart contracts to ensure transparency, fairness, and immutability for all players. Built for EVM-chains with specific arbitrum integration
 
 ## Features
 Decentralized Gameplay: All game logic is handled on-chain, ensuring fairness and trust.
