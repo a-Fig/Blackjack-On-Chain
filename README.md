@@ -32,5 +32,15 @@ Handles integration with the Arbitrum network for smooth and efficient interacti
 ### ownable.sol
 Provides ownership and administrative functionalities for managing the smart contract system.
 
-## How to Use
+## How to Deploy
+1. Clone the project into remix.ethereum.org
+2. Use the "Solidity compiler" tab to compile BJ_External.sol
+3. Go to the "Deploy & run transactions" tab to deploy the contracts
+4. Select an Environment to deploy to
+5. Select "bankContract" and deploy it with some intintal funds to be used to payout rewards later on
+
+   (By defualt all addresses will be authed to withdraw funds from the bank contract to make the setup prosscess easier, to disable this call the auth function and pass it the null address setting its auth status to false, then pass the address of the game contract you want to auth)
+
+6. Select "BJ_External.sol", pass the bankContract adr as a parameter, and deploy it
+7. 
 
