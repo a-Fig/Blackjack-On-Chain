@@ -13,10 +13,10 @@ Blackjack-On-Chain is a decentralized application (dApp) that brings the popular
 
 ### Use the existing contract on the Arbitrum Sepolia test-net
 1. Ensure that you have funds on the Arbitrum Sepolia test-net, if you need funds find a faucet for Arbitrum Sepolia test-net and then continue
-2. The "Blackjack_Game" Contract is 0xA66633FFf8547Ed71F85bB4765b70c7DA918E25D
-3. You can still use remix to load the contract on the "Deploy & run transactions" tab
-4. Clone the project into remix.ethereum.org
-5. Compile "BJ_External" and select "Blackjack_Game"
+2. You can still use remix to load the contract on the "Deploy & run transactions" tab
+3. Clone the project into remix.ethereum.org
+4. Compile "BJ_External" and select "Blackjack_Game"
+5. The "Blackjack_Game" Contract is 0xA66633FFf8547Ed71F85bB4765b70c7DA918E25D
 6. Then use the "At Address" button and input the "Blackjack_Game" address above
 7. Optionaly, if you would like to use the "bankcontract" follow the same steps and load the contract from 0x062E7037c291DCe3B9Db65eD8358ad722d488dB4
 8. Volia
