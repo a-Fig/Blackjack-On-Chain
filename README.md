@@ -3,7 +3,6 @@ Blackjack-On-Chain is a decentralized application (dApp) that brings the popular
 
 ## Features
 Decentralized Gameplay: All game logic is handled on-chain, ensuring fairness and trust.
-True Randomness: Powered by Chainlink VRF for generating random numbers.
 Player-Friendly Mechanics: Supports betting, card distribution, and game rules compliant with traditional Blackjack.
 Modular Design: Separate smart contracts for logic, rules, and external interactions to enhance scalability and maintainability.
 ## Smart Contract Modules
