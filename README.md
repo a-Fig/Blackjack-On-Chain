@@ -59,4 +59,5 @@ Provides ownership and administrative functionalities for managing the smart con
 11. The game may auto terminate if your hand ever reaches a value of 21 or greater
 12. If you win the game your winnings will be taken from the bank contract's balance and be added to your reward balance which can be claimed by calling "claim_rewards"
 13. If you lose your bet will be transfered and distributed to the bank contract's investors
+14. If the game ends in a tie a new game will be started automatically with the cards already dealt
 
