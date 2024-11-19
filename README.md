@@ -49,7 +49,7 @@ Provides ownership and administrative functionalities for managing the smart con
 5. Optionaly, if you would like to use the "bankcontract" follow the same steps and load the contract from 0x062E7037c291DCe3B9Db65eD8358ad722d488dB4
 6. Volia
    
-## How To Use
+## How To Play
 1. After properly deploying/loading the contract you can now use it
 2. Call the "buy_in" function and send an amount of ETH with your transaction as your bet (this amount must be less then 1/3 of the money held by the bankcontract)
 3. Wait for 3 blocks to pass and then call "deal"
