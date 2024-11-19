@@ -1,36 +1,6 @@
 # Blackjack-On-Chain
 Blackjack-On-Chain is a decentralized application (dApp) that brings the popular game of Blackjack onto the blockchain. This project leverages smart contracts to ensure transparency, fairness, and immutability for all players. Built for EVM-chains with specific arbitrum integration
 
-## Features
-Decentralized Gameplay: All game logic is handled on-chain, ensuring fairness and trust.
-Player-Friendly Mechanics: Supports betting, card distribution, and game rules compliant with traditional Blackjack.
-Modular Design: Separate smart contracts for logic, rules, and external interactions to enhance scalability and maintainability.
-## Smart Contract Modules
-
-### BJ_External.sol
-Contains all external functions for the end user to interact with.
-
-### BJ_Data.sol
-Manages data storage for player sessions, game states, and results.
-
-### BJ_Logic.sol
-Implements the core game logic, including card dealing, hit/stand mechanics, and determining winners.
-
-### BJ_Pure.sol
-Contains pure functions for utility operations, ensuring gas efficiency.
-
-### BJ_Rules.sol
-Defines the rules of Blackjack, including bust checks, dealer behavior, and Blackjack scenarios.
-
-### investorBank.sol
-Facilitates financial interactions for investors and players, such as deposit/withdrawal mechanisms.
-
-### arbitrumInterface.sol
-Handles integration with the Arbitrum network for smooth and efficient interactions.
-
-### ownable.sol
-Provides ownership and administrative functionalities for managing the smart contract system.
-
 ## How to Deploy
 ### Deploy your own
 1. Clone the project into remix.ethereum.org
@@ -68,3 +38,34 @@ Provides ownership and administrative functionalities for managing the smart con
 14. If you lose your bet will be transfered and distributed to the bank contract's investors
 15. If the game ends in a tie a new game will be started automatically with the cards already dealt
 
+## Features
+Decentralized Gameplay: All game logic is handled on-chain, ensuring fairness and trust.
+
+Player-Friendly Mechanics: Supports betting, card distribution, and game rules compliant with traditional Blackjack.
+
+Modular Design: Separate smart contracts for logic, rules, and external interactions to enhance scalability and maintainability.
+## Smart Contract Modules
+
+### BJ_External.sol
+Contains all external functions for the end user to interact with.
+
+### BJ_Data.sol
+Manages data storage for player sessions, game states, and results.
+
+### BJ_Logic.sol
+Implements the core game logic, including card dealing, hit/stand mechanics, and determining winners.
+
+### BJ_Pure.sol
+Contains pure functions for utility operations, ensuring gas efficiency.
+
+### BJ_Rules.sol
+Defines the rules of Blackjack, including bust checks, dealer behavior, and Blackjack scenarios.
+
+### investorBank.sol
+Facilitates financial interactions for investors and players, such as deposit/withdrawal mechanisms.
+
+### arbitrumInterface.sol
+Handles integration with the Arbitrum network for smooth and efficient interactions.
+
+### ownable.sol
+Provides ownership and administrative functionalities for managing the smart contract system.
