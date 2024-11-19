@@ -11,13 +11,14 @@ Blackjack-On-Chain is a decentralized application (dApp) that brings the popular
    (By defualt all addresses will be authed to withdraw funds from the bank contract to make the setup prosscess easier, to disable this call the auth function and pass it the null address setting its auth status to false, then pass the address of the game contract you want to auth)
 7. Select the "Blackjack_Game" contract, pass the bankContract adr as a parameter, and deploy it
 
-### Use the existing contract on the Arbitrum Sepolia network
-1. The "Blackjack_Game" Contract is 0xA66633FFf8547Ed71F85bB4765b70c7DA918E25D
-2. You can still use remix to load the contract on the "Deploy & run transactions" tab
-3. Compile "BJ_External" and select "Blackjack_Game"
-4. Then use the "At Address" button and input the "Blackjack_Game" address above
-5. Optionaly, if you would like to use the "bankcontract" follow the same steps and load the contract from 0x062E7037c291DCe3B9Db65eD8358ad722d488dB4
-6. Volia
+### Use the existing contract on the Arbitrum Sepolia test-net
+1. Ensure that you have funds on the Arbitrum Sepolia test-net, if you need funds find a faucet for Arbitrum Sepolia test-net and then continue
+2. The "Blackjack_Game" Contract is 0xA66633FFf8547Ed71F85bB4765b70c7DA918E25D
+3. You can still use remix to load the contract on the "Deploy & run transactions" tab
+4. Compile "BJ_External" and select "Blackjack_Game"
+5. Then use the "At Address" button and input the "Blackjack_Game" address above
+6. Optionaly, if you would like to use the "bankcontract" follow the same steps and load the contract from 0x062E7037c291DCe3B9Db65eD8358ad722d488dB4
+7. Volia
    
 ## How To Play
 1. After properly deploying/loading the contract you can now use it
