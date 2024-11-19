@@ -49,13 +49,13 @@ Provides ownership and administrative functionalities for managing the smart con
 3. Wait for 3 blocks to pass and then call "deal"
 4. Pass your adr to "getPlayerData" to find your current GameID
 5. Pass the GameID to "game" to get information on your current game
-6. the fist value next to playerHand and dealerHand is the hand's value
+6. The fist value next to playerHand and dealerHand is the hand's value
    the second value is the number of aces in the hand
    and the rest of the values are the exact cards the hand has
-7. use the information to choose your next move
-8. before you can hit, double, or stand you must call prime_hit, prime_double, or prime_stand and wait 3 blocks
-9. double and surrener can only be called in the turn after the cards have been delt
-10. forfeit can be called at anypoint and will end your current game and you will forfeit your bet
+7. Use the information to choose your next move
+8. Before you can hit, double, or stand you must call prime_hit, prime_double, or prime_stand and wait 3 blocks (if you are using a local chain you will have to force 3 blocks to be created by submiting transaction, doesnt matter if they fail or not)
+9. Double and surrener can only be called in the turn after the cards have been delt
+10. "forfeit" can be called at anypoint and will end your current game and you lose your bet
 11. The game may auto terminate if your hand ever reaches a value of 21 or greater
 12. If you win the game your winnings will be taken from the bank contract's balance and be added to your reward balance which can be claimed by calling "claim_rewards"
 13. If you lose your bet will be transfered and distributed to the bank contract's investors
