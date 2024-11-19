@@ -57,5 +57,6 @@ Provides ownership and administrative functionalities for managing the smart con
 9. double and surrener can only be called in the turn after the cards have been delt
 10. forfeit can be called at anypoint and will end your current game and you will forfeit your bet
 11. The game may auto terminate if your hand ever reaches a value of 21 or greater
-12. if you win the game your winnings will be taken from the bank contract's balance and be added to your reward balance which can be claimed by calling "claim_rewards" 
+12. If you win the game your winnings will be taken from the bank contract's balance and be added to your reward balance which can be claimed by calling "claim_rewards"
+13. If you lose your bet will be transfered and distributed to the bank contract's investors
 
