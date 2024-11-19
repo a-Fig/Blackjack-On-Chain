@@ -1,7 +1,7 @@
 # Blackjack-On-Chain
 Blackjack-On-Chain is a decentralized application (dApp) that brings the popular game of Blackjack onto the blockchain. This project leverages smart contracts to ensure transparency, fairness, and immutability for all players. Built for EVM-chains with specific arbitrum integration
 
-## How to Deploy
+## Setup
 ### Deploy your own
 1. Clone the project into remix.ethereum.org
 2. Use the "Solidity compiler" tab to compile BJ_External.sol
