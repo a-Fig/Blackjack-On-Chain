@@ -33,7 +33,7 @@ Handles integration with the Arbitrum network for smooth and efficient interacti
 Provides ownership and administrative functionalities for managing the smart contract system.
 
 ## How to Deploy
-# Deploy your own
+### Deploy your own
 1. Clone the project into remix.ethereum.org
 2. Use the "Solidity compiler" tab to compile BJ_External.sol
 3. Go to the "Deploy & run transactions" tab to deploy the contracts
@@ -42,7 +42,7 @@ Provides ownership and administrative functionalities for managing the smart con
    (By defualt all addresses will be authed to withdraw funds from the bank contract to make the setup prosscess easier, to disable this call the auth function and pass it the null address setting its auth status to false, then pass the address of the game contract you want to auth)
 7. Select the "Blackjack_Game" contract, pass the bankContract adr as a parameter, and deploy it
 
-# Use the existing contract on the Arbitrum Sepolia network
+### Use the existing contract on the Arbitrum Sepolia network
 1. The "Blackjack_Game" Contract is 0xA66633FFf8547Ed71F85bB4765b70c7DA918E25D
 2. You can still use remix to load the contract on the "Deploy & run transactions" tab
 3. Compile "BJ_External" and select "Blackjack_Game"
