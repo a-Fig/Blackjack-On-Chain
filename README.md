@@ -14,7 +14,7 @@ Handles integration with the Arbitrum network for smooth and efficient interacti
 Manages data storage for player sessions, game states, and results.
 
 ### BJ_External.sol
-Coordinates external dependencies like Chainlink VRF for random number generation.
+Contains all external functions for the end user to interact with.
 
 ### BJ_Logic.sol
 Implements the core game logic, including card dealing, hit/stand mechanics, and determining winners.
@@ -26,14 +26,10 @@ Contains pure functions for utility operations, ensuring gas efficiency.
 Defines the rules of Blackjack, including bust checks, dealer behavior, and Blackjack scenarios.
 
 ### investorBank.sol
-Facilitates financial interactions, such as deposit/withdrawal mechanisms for player funds.
+Facilitates financial interactions for investors and players, such as deposit/withdrawal mechanisms.
 
 ### ownable.sol
 Provides ownership and administrative functionalities for managing the smart contract system.
 
 ## How to Use
-Deploy the Contracts:
 
-1. Deploy all the smart contract modules to the Arbitrum blockchain.
-   
-2. Results and payouts are handled automatically on-chain.
